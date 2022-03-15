@@ -1,0 +1,22 @@
+{
+  "name": "burger-queen-discount",
+  "version": "1.0.0",
+  "description": "A web serve with one endpoint which randomly responses 200 or 500 HTTP code.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssinuco/buger-queen-discount.git"
+  },
+  "author": "Sergio Sinuco <ssinuco@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssinuco/buger-queen-discount/issues"
+  },
+  "homepage": "https://github.com/ssinuco/buger-queen-discount#readme",
+  "engines": {
+    "node": "16.x"
+  }
+}
