@@ -14,5 +14,5 @@ http.createServer(function (request, response) {
     
     response.writeHead(code, { 'Content-Type': 'application/json' });
     response.end(JSON.stringify(content), 'utf-8');
-}).listen(8080);
+}).listen(process.env.PORT || 8080);
 console.log('Server running/');
